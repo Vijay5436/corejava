@@ -29,6 +29,7 @@ public static void main(String args[])
 	System.out.println("Class of object is : "+c.getName());
 	s=null;
 	System.gc();
+	//garbagecollection
 }
 @Override
 protected void finalize()
